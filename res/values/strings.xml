@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AllBlue</string>
+    <string name="btn_account">Account</string>
+    <string name="btn_setting">Setting</string>
+    
+    <string-array name="accounts">
+        <item>sina</item>
+        <item>twitter</item>
+    </string-array>
+</resources>

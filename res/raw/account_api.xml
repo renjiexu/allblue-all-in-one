@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accounts>
+	<account name="twitter">
+		<authenticate>
+			<key>KZ4v0hoxgUFChxqwCqXiQ</key>
+			<value>pdIaZg8NmO8miq1fWOfDzMTY23MRCaihuVNl8WB8c</value>
+			<request_token>http://twitter.com/oauth/request_token</request_token>
+			<access_token>http://twitter.com/oauth/access_token</access_token>
+			<authorized>http://twitter.com/oauth/authorize</authorized>
+		</authenticate>
+		<api>
+			<user_profile>http://api.twitter.com/1/users/show.json</user_profile>
+			<home_timeline>http://api.twitter.com/1/statuses/home_timeline.json</home_timeline>
+			<verify_credentials>http://twitter.com/account/verify_credentials.json</verify_credentials>
+			<update>http://api.twitter.com/1/statuses/update.json</update>
+		</api>
+	</account>
+	<account name="sina">
+		<authenticate>
+			<key>3769663748</key>
+			<value>0c11104fd9e407ec1732880a74662823</value>
+			<request_token>http://api.t.sina.com.cn/oauth/request_token</request_token>
+			<access_token>http://api.t.sina.com.cn/oauth/access_token</access_token>
+			<authorized>http://api.t.sina.com.cn/oauth/authorize</authorized>
+		</authenticate>
+		<api>
+			<user_profile>http://api.t.sina.com.cn/users/show.json</user_profile>
+			<home_timeline>http://api.t.sina.com.cn/statuses/home_timeline.json</home_timeline>
+			<verify_credentials>http://api.t.sina.com.cn/account/verify_credentials.json</verify_credentials>
+			<update>http://api.t.sina.com.cn/statuses/update.json</update>
+		</api>
+	</account>
+</accounts>
